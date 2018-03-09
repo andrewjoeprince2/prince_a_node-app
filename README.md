@@ -1,4 +1,4 @@
-# Andrew Prince - Chat App
+# Andrew Prince - Video App
 ### Group A - MMED-3012
 
 Using Node and Express, I have built a Roku video streaming application which allows users to filter through genres.
