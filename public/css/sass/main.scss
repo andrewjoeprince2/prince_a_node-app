@@ -1,0 +1,84 @@
+//Variables
+
+$purp1 : #17141f;
+$purp2 : #4b367c;
+
+$gray1 : #0e0c13;
+$gray2 : #b8b5ab;
+
+$white : #faf9fa;
+
+body {
+  font-size: 16px;
+  background-color: $white;
+  color: $gray1;
+}
+
+video {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+a {
+  color: $purp2;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: $purp2;
+  color: $white;
+
+  a {
+    color: $white;
+  }
+}
+
+
+#movieSocial {
+  list-style-type: none;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+}
+
+#mainNav {
+  color: white;
+  a {
+    color: white;
+  }
+}
+
+#dropDown {
+
+  a {
+  color: $purp1;
+}
+}
+
+#thumbs {
+  img {
+    cursor: pointer;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+  }
+
+  img:hover {
+    opacity: .8;
+  }
+
+  h3 {
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+  }
+}

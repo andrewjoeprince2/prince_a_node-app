@@ -1,0 +1,38 @@
+body {
+  font-size: 16px;
+  background-color: #faf9fa;
+  color: #0e0c13; }
+
+video {
+  min-width: 100%;
+  max-width: 100%; }
+
+a {
+  color: #cda826; }
+
+ul {
+  list-style-type: none; }
+
+.navbar {
+  background-color: #cda826;
+  color: #faf9fa; }
+  .navbar a {
+    color: #faf9fa; }
+
+#movieSocial {
+  list-style-type: none;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0; }
+  #movieSocial li {
+    display: inline;
+    margin-right: 20px; }
+
+#thumbs img {
+  cursor: pointer; }
+#thumbs h3 {
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */

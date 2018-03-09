@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  {{#if kidsmode}}
-    <link rel="stylesheet" href="stylesheets/kids.css">
-  {{/if}}
+  {{>head}}
   <title>{{ title }}</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  {{#if kidsmode}}
+    <link rel="stylesheet" href="/css/kids.css">
+  {{/if}}
 </head>
+
 <body>
-  {{{ body }}}
-<script src="javascripts/main.js"></script>
+  {{>header}}
+
+  {{>genres}}
+
+<div class="container">
+    {{{ body }}}
+</div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/javascripts/main.js"></script>
 </body>
 </html>
